@@ -1,7 +1,7 @@
 
 var carrito = [];
 let total = 0;
-
+/*
 class Producto{
     constructor(nombre, precio){
         this.nombre = nombre
@@ -26,5 +26,16 @@ const producto1 = new Producto("Product 1", 10.0);
 const producto2 = new Producto("Product 1", 10.0);
 agregaralCarrito(producto1);
 agregaralCarrito(producto2);
-calcularTotal(carrito)
 alert(total);
+
+*/
+
+
+let precio1 = prompt("ingrese el precio del producto:")
+
+
+total = total + parseFloat(precio1);
+
+alert("su carrito tiene un valor de " + total);
+
+
